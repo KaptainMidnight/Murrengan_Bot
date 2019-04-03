@@ -4,7 +4,7 @@
 
 from telebot import TeleBot, types
 
-token = "851940626:AAEh8TpdiGqjFtQy-aRgm36nA-HvG1A1CN4"
+token = "<token>"
 
 bot = TeleBot(token)
 
