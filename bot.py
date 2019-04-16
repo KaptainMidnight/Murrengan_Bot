@@ -8,16 +8,6 @@ token = "<token>"
 
 bot = TeleBot(token)
 
-
-# @bot.message_handler(content_types=['text'])
-# def send(message):
-#     mat = ['блять', 'черт', 'пошел нахуй']
-#     response = message.text
-#     for i in mat:
-#         print(i)
-#         print(i if response in i else "Список не содержит заданного элемента")
-
-
 @bot.message_handler(content_types=['new_chat_members'])
 def greeting(message):
     markup = types.InlineKeyboardMarkup()
